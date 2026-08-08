@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "lastUpdated": "2026-08-08T07:00:00Z",
+  "maintainer": "rudrathakur3535-ux",
+  "schemes": [
+    {
+      "id": "SCH_PM_KISAN_001",
+      "name": "PM-Kisan Samman Nidhi",
+      "sector": "Agriculture & Rural",
+      "minAge": 18,
+      "maxIncome": 200000,
+      "genderAllowed": ["all"],
+      "maxLandholding": 5.0,
+      "bplCardRequired": false,
+      "targetSectors": ["farmer", "rural"],
+      "benefitDetails": "₹6,000 per year direct income support in 3 equal installments of ₹2,000.",
+      "requiredDocuments": ["Aadhaar Card", "Land Ownership Record (Khasra/Khatauni)", "Active Bank Account"],
+      "officialApplyUrl": "https://pmkisan.gov.in"
+    },
+    {
+      "id": "SCH_PM_SURYA_GHAR_002",
+      "name": "PM Surya Ghar: Muft Bijli Yojana",
+      "sector": "Renewable Energy & Housing",
+      "minAge": 18,
+      "maxIncome": 350000,
+      "genderAllowed": ["all"],
+      "targetSectors": ["artisan", "unemployed", "women", "general"],
+      "benefitDetails": "Up to ₹78,000 rooftop solar subsidy & 300 units free electricity monthly.",
+      "requiredDocuments": ["Electricity Bill", "Proof of Roof Ownership", "Aadhaar Card", "Bank Passbook"],
+      "officialApplyUrl": "https://pmsuryaghar.gov.in"
+    },
+    {
+      "id": "SCH_PMEGP_LOAN_003",
+      "name": "Prime Minister Employment Generation Programme (PMEGP)",
+      "sector": "Micro Enterprises & MSME",
+      "minAge": 18,
+      "maxIncome": 500000,
+      "genderAllowed": ["all"],
+      "targetSectors": ["artisan", "student", "unemployed"],
+      "benefitDetails": "Bank loan up to ₹50 Lakhs for manufacturing / ₹20 Lakhs for service sector with 15-35% subsidy.",
+      "requiredDocuments": ["Project Report", "Aadhaar Card", "Educational Qualification Certificate", "Caste Certificate (if applicable)"],
+      "officialApplyUrl": "https://www.kviconline.gov.in/pmegpeportal/"
+    },
+    {
+      "id": "SCH_LAKHPATI_DIDI_004",
+      "name": "Lakhpati Didi Yojana",
+      "sector": "Women Empowerment & Self Help Groups",
+      "minAge": 18,
+      "maxAge": 60,
+      "maxIncome": 300000,
+      "genderAllowed": ["female"],
+      "targetSectors": ["women", "rural", "artisan"],
+      "benefitDetails": "Financial training, micro-credit access & enterprise support targeting annual income > ₹1 Lakh for SHG women.",
+      "requiredDocuments": ["SHG Membership Certificate", "Aadhaar Card", "Bank Account Details"],
+      "officialApplyUrl": "https://daynrlm.gov.in"
+    }
+  ]
+}
