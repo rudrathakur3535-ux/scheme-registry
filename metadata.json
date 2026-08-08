@@ -1,0 +1,6 @@
+{
+  "name": "AI Eligibility Engine for Indian Yojanas",
+  "description": "AI-powered demographic & socio-economic profile parsing engine and scheme eligibility matcher for Indian Government Welfare Schemes (Yojanas).",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
